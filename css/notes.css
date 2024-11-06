@@ -1,0 +1,34 @@
+.note-wrapper{
+    max-width: 15%;
+    min-width: 250px;
+}
+.note-menu {
+    border: 2px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-note-button {
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.note-title {
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: larger;
+} .note-title::placeholder{
+    color: rgb(192, 192, 192);
+}
