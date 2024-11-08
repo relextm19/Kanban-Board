@@ -17,10 +17,22 @@
         <div class="note-wrapper">
             <div class="note-menu">
                 <input type="text" class="note-title" placeholder="Title">
-                <button class="new-note-button">+</button>
+                <button class="new-note-button note-button">+</button>
+            </div>
+            <div class="notes">
+                <div class="note">
+                    <div class="note-main-text">
+                        <textarea class="note-main-text-textarea" placeholder="Note..."></textarea>
+                        <button class="collapsible note-button">
+                            <div class="caret"></div>
+                        </button>
+                    </div>
+                    <div class="note-expand-text">blalaall</div>
+                </div>
             </div>
         </div>
     </main>
-    <script src="../js/notes.js"></script>
+    <script src="../js/create_note.js"></script>
+    <script src="../js/expand_note.js"></script>
 </body>
 </html>
